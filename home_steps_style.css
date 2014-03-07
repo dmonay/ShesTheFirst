@@ -1,0 +1,36 @@
+#steps_wrap {
+    width:1200px;
+    height:400px;
+    margin:0 auto;
+
+}
+
+.steps {
+    width:250px;
+    border-radius:100%;
+    display:inline-block;
+    
+}
+
+
+.steps_divs {
+    display:inline-block;
+    width:280px;
+    height:300px;
+    margin-right:70px;
+    margin-left:20px;
+    vertical-align:top;
+}
+
+
+
+
+#third p {
+    font-size:18px;
+    font-weight:100;
+    text-align:center;
+    color: white;
+    line-height:26px;
+}
+
+#hobo {color:blue;}

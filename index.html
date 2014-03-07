@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Anniversary Gala</title>
+    <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="home_style.css">
+    <link rel="stylesheet" type="text/css" href="home_body_style.css">
+    <link rel="stylesheet" type="text/css" href="home_steps_style.css">
+    <link rel="stylesheet" type="text/css" href="home_misc_style.css">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="datamaps.world.min.js"></script>
+</head>
+<body>
+<!-- 
+	<div id="header">
+       <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+        </ul>  
+        
+    </div>
+    -->
+<div id="first">
+    
+    <div id="banner">             
+            <h1>Join us at our Fifth Anniversary Gala</h1>
+            <h3>100% of your donations will fund our 2014 operation costs</h3>
+            <div id="cta">Get your ticket</div>
+    </div>
+
+</div>	
+
+<div id="second">
+    <center><h3>We’re a non-profit organization on a mission to bring clean and safe drinking water to every person on the planet. Join us.</h3></center><br><br>
+    
+    <div id="steps_wrap">
+            <div class="steps_divs"><img class="steps" src="1"><p> Date</p></div>
+            <div class="steps_divs"><img class="steps" src="2"><p>Time</p></div>
+            <div class="steps_divs"><img class="steps" src="3"><p>Place</p></div>
+            
+            
+    </div>
+</div>	
+
+    
+   
+    <div id="third">
+        <br><br><h3>Our girls are moving up</h3><br><br>
+        
+        <div id="jetpack">                        
+        </div>
+        <br><h3>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </h3>
+    </div>	
+
+    
+ 
+ <div id="fourth">
+    <br><br><br><h3>The video copy</h3><br><br>
+        
+        <iframe src="http://www.youtube.com/embed/yvOOZbN-zP0?rel=0;3&amp;autohide=1&amp;showinfo=0" frameborder="0" showinfo="0" width="100%" height="500" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="fitvid957085"></iframe>
+        <br><h3>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </h3>
+    </div>
+ </div>  
+    
+<div id="fifth">
+    <center><h3>This wouldn't be possible without you</h3></center><br><br>
+    
+    <div id="steps_wrap">
+            <div class="steps_divs"><img class="steps" src="1"><p> Date</p></div>
+            <div class="steps_divs"><img class="steps" src="2"><p>Time</p></div>
+            <div class="steps_divs"><img class="steps" src="3"><p>Place</p></div>
+            
+            
+    </div>
+
+<div id="sixth">
+    <center><h3>Our impact</h3></center><br><br>
+    
+    
+    <div id="container" style="position: relative; width:100%; height: 700px;"></div>
+    <script>
+     var map = new Datamap({element: document.getElementById('container')});
+    </script>
+    
+</div>  
+
+<div id="the_usual">
+    <a id="privacy" href="{{ url_for('privacy') }}">Privacy Policy</a>
+    <a id="contact" href="{{ url_for('contact') }}">Contact Us</a>
+</div>    
+    
+    
+</body>
+</html>
