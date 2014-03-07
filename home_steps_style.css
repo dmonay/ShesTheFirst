@@ -5,12 +5,7 @@
 
 }
 
-.steps {
-    width:250px;
-    border-radius:100%;
-    display:inline-block;
-    
-}
+
 
 
 .steps_divs {
@@ -20,17 +15,11 @@
     margin-right:70px;
     margin-left:20px;
     vertical-align:top;
+    color:#7c7c7c;
+}
+.steps_divs p {
+    margin-left: 10px;
+    font-size: 20px;
 }
 
 
-
-
-#third p {
-    font-size:18px;
-    font-weight:100;
-    text-align:center;
-    color: white;
-    line-height:26px;
-}
-
-#hobo {color:blue;}

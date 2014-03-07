@@ -1,11 +1,43 @@
+h2{
+    font-size:50px;
+    font-weight:100;
+    text-align:center;
+    color: #0747f7;
+}
+
+#special {
+	position: relative;
+	bottom:300px;
+	left:810px;
+	color:black;
+	font-size: 70px;
+}
+
+#special2 {
+	position: relative;
+	top:-360px;
+	left:20px;
+	color:black;
+	font-size: 40px;
+}
+
+#second {
+    margin:0 auto;
+    width:1100px;
+    height:500px;
+    background-color:white; 
+
+
+}
+
 #cta {
 	height: 50px;
 	width:150px;
-	background-color:#73acff;
+	background-color:#2e9df7;
 	color: white;
 	display: block;
-	border-radius: 10px;
-	margin-left: 80%;
+	border-radius: 6px;
+	margin-left: 70%;
 	line-height: 45px;
 	font-size: 20px;
 	padding-left: 13px;
@@ -16,12 +48,18 @@
 	margin-left:50%;
 }
 
+
+#steps_wrap img{
+	width: 204px;
+	height:157px;
+	display:inline-block;
+}
 #jetpack {
 	margin: 0 auto;
 	width:1000px;
 	height: 500px;
 	z-index: 10;
-	background: url('banner4.jpg') no-repeat center center fixed; 
+	background: url('up.jpg') no-repeat center center fixed; 
     -webkit-background-size:  cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,7 +71,7 @@
 	padding: 0;
     margin:0;
     width:100%;
-    height:1000px;
+    height:1450px;
     background-color:#fce6fc; 
     z-index: -10;
 }
@@ -42,20 +80,35 @@
     width:1000px;
     margin: 0 auto;
 }
-
-#fifth {
-	margin:0;
-	padding: 0;
-	width:100%;
-    height:500px;
+#amount_raised {
+		position: relative;
+	top: -300px;
+    margin-left: 10px;
+    font-size: 20px;
 }
+.special_steps_divs {
+	display: inline-block;
+	width:280px;
+    height:300px;
+    margin-right:70px;
+    margin-left:220px;
+    vertical-align:top;
+}
+
+.special_steps_divs p {
+	position: relative;
+	top: -200px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
 
 #sixth {
 	background-color: #eaf2e7;
 	margin:0;
 	padding: 0;
 	width:100%;
-    height:900px;
+    height:1000px;
 }
 
 #seventh {
@@ -63,7 +116,7 @@
 	margin:0;
 	padding: 0;
 	width:100%;
-    height:1300px;
+    height:1500px;
     position: relative;
     top:-30px;
 }
@@ -81,7 +134,28 @@
 	height: 300px;
 	width: 600px;
 	display:inline-block;
+	margin-left: 100px;
 }
+
+.speakers_copy {
+	height: 300px;
+	width: 600px;
+	display:inline-block;
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
+
+.speakers_copy p{
+	text-align: left;
+	color:#73757c;
+}
+
+.speakers_copy h3{
+	text-align: left;
+	font-variant:small-caps;
+	letter-spacing:2px;
+}
+
 
 #eigth {
 	background-color: #6f72c6;
@@ -94,7 +168,7 @@
 }
 
 #eigth h3 {
-    color:#aeb0bb;
+	color:#aeb0bb;
 }
 
 .list_countries{
