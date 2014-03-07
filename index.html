@@ -4,13 +4,20 @@
 	<meta charset="UTF-8">
 	<title>Anniversary Gala</title>
     <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=League+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Flamenco' rel='stylesheet' type='text/css'>
+
     <link rel="stylesheet" type="text/css" href="home_style.css">
     <link rel="stylesheet" type="text/css" href="home_body_style.css">
     <link rel="stylesheet" type="text/css" href="home_steps_style.css">
     <link rel="stylesheet" type="text/css" href="home_misc_style.css">
+
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="http://d3js.org/topojson.v1.min.js"></script>
     <script src="datamaps.world.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="skrollr.min.js"></script>
+
 </head>
 <body>
 <!-- 
@@ -25,11 +32,10 @@
 <div id="first">
     
     <div id="banner">             
-            <h1>Join us at our Fifth Anniversary Gala</h1>
+            <br><h1>Join us at our <span>Fifth Anniversary</span> Gala</h1>
             <h3>100% of your donations will fund our 2014 operation costs</h3>
             <div id="cta">Get your ticket</div>
     </div>
-
 </div>	
 
 <div id="second">
@@ -76,21 +82,85 @@
     </div>
 
 <div id="sixth">
-    <center><h3>Our impact</h3></center><br><br>
+    <br><br><center><h3>Our impact</h3></center><br><br>
     
     
     <div id="container" style="position: relative; width:100%; height: 700px;"></div>
+
+    <div id="panel">
+            <h4>Top Scholar Countries</h4>
+            <center><hr></center>
+            <ul class="list_countries">
+                <li><b>Nepal:</b> 85 </li>
+                <li><b>Guatemala:</b> 45 </li>
+                <li><b>Uganda:</b> 45 </li>
+                <li><b>India:</b> 25 </li>
+                <li><b>Tanzania:</b> 24 </li>
+                <li><b>Ethiopia:</b> 15 </li>
+                <li><b>Peru:</b> 9 </li>
+                <li><b>South Sudan:</b> 6 </li>
+                <li><b>Kenya:</b> 4 </li>
+            </ul>
+        </div>
+
+
     <script>
      var map = new Datamap({element: document.getElementById('container')});
     </script>
     
-</div>  
+</div> 
+
+<div id="seventh">
+    <br><br><center><h3>Introducing Speakers</h3></center><br><br>
+    
+    
+    <img class="speakers_img" data-4000="opacity:0;" data-4500="opacity:1;" src="tammy.jpg">
+    <div class="speakers_copy">
+        <h3>Tammy Tibbets</h3>
+        <h4>President and Founder of She's The First</h4>
+        <p>Tammy is the first in her family to graduate from college–she studied journalism at The College of New Jersey, where her final assignment unexpectedly put her on the path to social entrepreneurship. After reporting on a foundation that sponsored children’s education in war-torn Liberia, she felt the urgent need to give girls worldwide access to an education. This was a story she could not walk away from as an unbiased reporter, so she traveled to Liberia and began to volunteer for the cause after graduation.</p>
+    </div>
+
+
+    <img class="speakers_img" data-4400="opacity:0;" data-4600="opacity:1;" src="jancy.jpg">
+       <div class="speakers_copy">
+        <h3>Jancy</h3>
+        <h4>2013 Scholar from India</h4>
+        <p>Meet Jancy, an 18-year-old college sophomore in India! After graduating from Shanti Bhavan, Jancy is attending Jyoti Nivas College where she is studying Econ-Tourism and singing in the choir! Jancy is also a fantastic artist and dreams of being a fashion designer – she was the judge of last year’s Tie-dye Cupcake Bake-off T-shirt design contest! She also is a master at henna. Jancy is the first girl in her family to have the opportunity to go to school and to learn to read and write.</p>
+    </div>
+
+
+
+    <img class="speakers_img" data-4800="opacity:0;" data-5000="opacity:1;" src="keynote.jpg">
+    <div class="speakers_copy">
+        <h3>the shit</h3>
+        <h4>he will smell you later</h4>
+        <p>In west Philadelphia born and raised
+On the playground was where I spent most of my days
+Chillin' out maxin' relaxin' all cool
+And all shootin some b-ball outside of the school
+When a couple of guys who were up to no good
+Started making trouble in my neighborhood
+I got in one little fight and my mom got scared
+She said 'You're movin' with your auntie and uncle in Bel Air'</p>
+    </div>
+    
+</div>
+
+<div id="eigth">
+    <br><br><center><h3>Our partners</h3></center><br><br>
+    
+    
+    
+</div>   
 
 <div id="the_usual">
     <a id="privacy" href="{{ url_for('privacy') }}">Privacy Policy</a>
     <a id="contact" href="{{ url_for('contact') }}">Contact Us</a>
 </div>    
     
-    
+<script type="text/javascript">
+    var s = skrollr.init();
+</script>    
 </body>
 </html>

@@ -2,7 +2,13 @@ body {
     width:100%;
     padding:0;
     margin:0;
-    font-family: 'Carrois Gothic SC', sans-serif;
+    /*
+    font-family: 'Carrois Gothic SC', sans-serif; 
+    font-family:"Proxima-Nova-n3","Proxima-Nova-1","Proxima-Nova-2","Proxima Nova",sans-serif;
+    */
+    
+    font-family: "Proxima-Nova-n4","Proxima-Nova-1","Proxima-Nova-2","Proxima Nova",sans-serif;
+    font-weight: 100;
 }
 
 
@@ -54,15 +60,18 @@ div {display:block;}
 }
 */
 h1 {
-    margin:0;
+    width:50%;
+    margin-top: 0;
+    margin-left:50%;
     color: white;
     padding-top:0px;
-    font-size:95px;
+    font-size:75px;
     font-weight:100;
     text-align:center;
+
     /*text-shadow: 1px 1px #e2dbdb;*/
 }
-
+span {font-family: 'League Script', cursive;}
 hr {
     margin:-50px 0px 40px 0px;
     height:2px;
@@ -79,6 +88,8 @@ h3 {
     font-size:30px;
     font-weight:100;
     text-align:center;
+    font-family: "Proxima-Nova-n4","Proxima-Nova-1","Proxima-Nova-2","Proxima Nova",sans-serif;
+    font-weight: 100;
 }
 
 
@@ -105,6 +116,8 @@ li{
     text-align:center;
     font-weight:900;
     padding-top:30px;
+    position: relative;top:-90px;
+    bottom:-30px;
 }
 
 #privacy {

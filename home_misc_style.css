@@ -1,12 +1,20 @@
 #cta {
 	height: 50px;
-	width:130px;
+	width:150px;
 	background-color:#73acff;
 	color: white;
 	display: block;
 	border-radius: 10px;
+	margin-left: 80%;
+	line-height: 45px;
+	font-size: 20px;
+	padding-left: 13px;
 }
 
+#banner h3 {
+	color:white;
+	margin-left:50%;
+}
 
 #jetpack {
 	margin: 0 auto;
@@ -40,12 +48,88 @@
 	padding: 0;
 	width:100%;
     height:500px;
-	background-color: #cad0c6;
 }
 
 #sixth {
+	background-color: #eaf2e7;
 	margin:0;
 	padding: 0;
 	width:100%;
     height:900px;
+}
+
+#seventh {
+	background-color: #ccd8ff;
+	margin:0;
+	padding: 0;
+	width:100%;
+    height:1300px;
+    position: relative;
+    top:-30px;
+}
+
+.speakers_img {
+	margin-left: 200px;
+	border-radius: 100%;
+	height: 300px;
+	width: 300px;
+	background-color: #2d90ff;
+	display:inline-block;
+}
+
+.speakers_copy {
+	height: 300px;
+	width: 600px;
+	display:inline-block;
+}
+
+#eigth {
+	background-color: #6f72c6;
+	margin:0;
+	padding: 0;
+	width:100%;
+    height:600px;
+    position: relative;
+    top:-60px;
+}
+
+#eigth h3 {
+    color:#aeb0bb;
+}
+
+.list_countries{
+	width:180px;
+	height:350px;
+	position: relative;
+	bottom:30px;
+	list-style-type: none;
+	
+}
+
+.list_countries li {
+	text-align: left;
+	color:#82838a;
+}
+#panel {
+	width:230px;
+	height:370px;
+	background-color: white;
+	position: relative;
+	bottom:400px;
+	left:40px;
+	color:#24282a;
+}
+#panel h4 {
+color:#82838a;
+	position: relative;
+	padding-top: 20px;
+	left:40px;
+}
+
+#panel hr {
+color:#6c6c71;
+	position: relative;
+	margin-top: -10px;
+	width:150px;
+
 }
