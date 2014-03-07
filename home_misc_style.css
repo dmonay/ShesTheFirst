@@ -43,6 +43,11 @@ h2{
 	padding-left: 13px;
 }
 
+#cta:hover {
+	cursor: pointer;
+	background-color:#55b3ff;
+}
+
 #banner h3 {
 	color:white;
 	margin-left:50%;
