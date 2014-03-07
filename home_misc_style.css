@@ -52,7 +52,10 @@ h2{
 	color:white;
 	margin-left:50%;
 }
-
+#logo {
+	position: relative;
+	top:-410px;
+}
 
 #steps_wrap img{
 	width: 204px;
