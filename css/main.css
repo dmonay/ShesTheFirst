@@ -61,7 +61,7 @@ h3 {
   display: block;
   border-radius: 6px;
   margin: 0 auto;
-  margin-top: 5px;
+  margin-top: -55px;
   line-height: 45px;
   font-size: 20px;
 }
@@ -83,11 +83,12 @@ h3 {
 #second {
   padding: 7px;
   text-align: center;
-  width: 370px;
+  width: 450px;
   margin: 0 auto;
+  font-size: 130%;
 }
 
-/* line 10, ../scss/_mobile2.scss */
+/* line 11, ../scss/_mobile2.scss */
 #jetpack {
   width: 100%;
   height: 320px;
@@ -99,53 +100,53 @@ h3 {
   background-size: cover;
 }
 
-/* line 18, ../scss/_mobile2.scss */
+/* line 19, ../scss/_mobile2.scss */
 #third {
   padding: 7px;
   text-align: center;
   background-color: #c6fcd7;
 }
 
-/* line 25, ../scss/_mobile2.scss */
+/* line 26, ../scss/_mobile2.scss */
 #fourth {
   padding: 7px;
   text-align: center;
   background-color: #fce6fc;
 }
 
-/* line 31, ../scss/_mobile2.scss */
+/* line 32, ../scss/_mobile2.scss */
 #fifth {
   margin-top: -20px;
   text-align: center;
   background-color: #eaf2e7;
 }
 
-/* line 37, ../scss/_mobile2.scss */
+/* line 38, ../scss/_mobile2.scss */
 #sixth {
   padding: 7px;
   text-align: center;
   background-color: #ccd8ff;
 }
 
-/* line 43, ../scss/_mobile2.scss */
+/* line 44, ../scss/_mobile2.scss */
 #seventh {
   margin-top: -20px;
   text-align: center;
   background-color: #6f72c6;
 }
 
-/* line 49, ../scss/_mobile2.scss */
+/* line 50, ../scss/_mobile2.scss */
 .speakers_img {
   width: 250px;
   border-radius: 100%;
 }
 
-/* line 54, ../scss/_mobile2.scss */
+/* line 55, ../scss/_mobile2.scss */
 #partners {
   width: 390px;
 }
 
-/* line 58, ../scss/_mobile2.scss */
+/* line 59, ../scss/_mobile2.scss */
 nav {
   background-color: #5f575e;
   text-align: center;
@@ -153,36 +154,36 @@ nav {
   padding: 20px;
 }
 
-/* line 65, ../scss/_mobile2.scss */
+/* line 66, ../scss/_mobile2.scss */
 a {
   text-decoration: none;
   color: #a57ad5;
   padding: 10px;
 }
-/* line 69, ../scss/_mobile2.scss */
+/* line 70, ../scss/_mobile2.scss */
 a:hover {
   color: #c8b8f0;
 }
 
-/* line 75, ../scss/_mobile2.scss */
+/* line 76, ../scss/_mobile2.scss */
 #container {
   position: relative;
   width: 100%;
   height: 200px;
 }
 
-/* line 81, ../scss/_mobile2.scss */
+/* line 82, ../scss/_mobile2.scss */
 hr {
   width: 45%;
 }
 
-/* line 85, ../scss/_mobile2.scss */
+/* line 86, ../scss/_mobile2.scss */
 #panel {
   text-align: center;
   padding-bottom: 20px;
 }
 
-/* line 90, ../scss/_mobile2.scss */
+/* line 91, ../scss/_mobile2.scss */
 svg {
   margin: 0 auto;
 }
