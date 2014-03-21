@@ -67,7 +67,7 @@ h2{
 	width:1000px;
 	height: 500px;
 	z-index: 10;
-	background: url('up.jpg') no-repeat center center fixed; 
+	background: url('../up.jpg') no-repeat center center fixed; 
     -webkit-background-size:  cover;
     -moz-background-size: cover;
     -o-background-size: cover;

@@ -40,7 +40,7 @@ div {display:block;}
     width:100%;
     min-width:900px;
     height:500px;
-    background: url('banner4.jpg') no-repeat center center fixed; 
+    background: url('../banner4.jpg') no-repeat center center fixed; 
     -webkit-background-size:  cover;
     -moz-background-size: cover;
     -o-background-size: cover;
