@@ -46,6 +46,7 @@ h3 {
 /* line 46, ../scss/_mobile1.scss */
 #banner {
   text-align: center;
+  font-size: 80%;
 }
 /* line 48, ../scss/_mobile1.scss */
 #banner span {
@@ -61,7 +62,7 @@ h3 {
   display: block;
   border-radius: 6px;
   margin: 0 auto;
-  margin-top: -55px;
+  margin-top: -25px;
   line-height: 45px;
   font-size: 20px;
 }

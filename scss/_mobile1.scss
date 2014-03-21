@@ -48,7 +48,7 @@ h3 {
 	span {
 	font-family: $font-special;
 	}
-
+	font-size:80%;
 }
 
 #cta {
@@ -59,7 +59,7 @@ h3 {
 	display: block;
 	border-radius: 6px;
 	margin:0 auto;
-	margin-top:-55px;
+	margin-top:-25px;
 	line-height: 45px;
 	font-size: 20px;
 	&:hover {
