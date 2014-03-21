@@ -7,33 +7,33 @@ ol {
   padding: 0;
 }
 
-/* line 10, ../scss/_mobile1.scss */
+/* line 11, ../scss/_mobile1.scss */
 body {
-  font: 100% "Proxima Nova", sans-serif;
+  font: 150% "Proxima Nova", sans-serif;
   color: #585858;
   margin: 0;
   padding: 0;
 }
 
-/* line 24, ../scss/_mobile1.scss */
+/* line 25, ../scss/_mobile1.scss */
 h1 {
   font-family: "Corben", cursive;
 }
 
-/* line 28, ../scss/_mobile1.scss */
+/* line 29, ../scss/_mobile1.scss */
 header {
   font-size: 2em;
 }
 
-/* line 32, ../scss/_mobile1.scss */
+/* line 33, ../scss/_mobile1.scss */
 h3 {
   padding: 10px;
 }
 
-/* line 36, ../scss/_mobile1.scss */
+/* line 37, ../scss/_mobile1.scss */
 #first {
   width: 100%;
-  height: 250px;
+  height: 290px;
   background: url("../images/banner4.jpg") no-repeat center top fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -43,16 +43,16 @@ h3 {
   margin-top: -20px;
 }
 
-/* line 45, ../scss/_mobile1.scss */
+/* line 46, ../scss/_mobile1.scss */
 #banner {
   text-align: center;
 }
-/* line 47, ../scss/_mobile1.scss */
+/* line 48, ../scss/_mobile1.scss */
 #banner span {
   font-family: "League Script", cursive;
 }
 
-/* line 53, ../scss/_mobile1.scss */
+/* line 54, ../scss/_mobile1.scss */
 #cta {
   height: 50px;
   width: 150px;
@@ -61,17 +61,17 @@ h3 {
   display: block;
   border-radius: 6px;
   margin: 0 auto;
-  margin-top: -15px;
+  margin-top: 5px;
   line-height: 45px;
   font-size: 20px;
 }
-/* line 64, ../scss/_mobile1.scss */
+/* line 65, ../scss/_mobile1.scss */
 #cta:hover {
   cursor: pointer;
   background-color: #55b3ff;
 }
 
-/* line 70, ../scss/_mobile1.scss */
+/* line 71, ../scss/_mobile1.scss */
 #logo {
   position: relative;
   top: -20px;
@@ -79,16 +79,18 @@ h3 {
   width: 80px;
 }
 
-/* line 1, ../scss/_mobile2.scss */
+/* line 3, ../scss/_mobile2.scss */
 #second {
   padding: 7px;
   text-align: center;
+  width: 370px;
+  margin: 0 auto;
 }
 
-/* line 6, ../scss/_mobile2.scss */
+/* line 10, ../scss/_mobile2.scss */
 #jetpack {
   width: 100%;
-  height: 220px;
+  height: 320px;
   z-index: 10;
   background: url("../images/up.jpg") no-repeat center top scroll;
   -webkit-background-size: cover;
@@ -97,53 +99,53 @@ h3 {
   background-size: cover;
 }
 
-/* line 14, ../scss/_mobile2.scss */
+/* line 18, ../scss/_mobile2.scss */
 #third {
   padding: 7px;
   text-align: center;
   background-color: #c6fcd7;
 }
 
-/* line 20, ../scss/_mobile2.scss */
+/* line 25, ../scss/_mobile2.scss */
 #fourth {
   padding: 7px;
   text-align: center;
   background-color: #fce6fc;
 }
 
-/* line 26, ../scss/_mobile2.scss */
+/* line 31, ../scss/_mobile2.scss */
 #fifth {
   margin-top: -20px;
   text-align: center;
   background-color: #eaf2e7;
 }
 
-/* line 32, ../scss/_mobile2.scss */
+/* line 37, ../scss/_mobile2.scss */
 #sixth {
   padding: 7px;
   text-align: center;
   background-color: #ccd8ff;
 }
 
-/* line 38, ../scss/_mobile2.scss */
+/* line 43, ../scss/_mobile2.scss */
 #seventh {
   margin-top: -20px;
   text-align: center;
   background-color: #6f72c6;
 }
 
-/* line 44, ../scss/_mobile2.scss */
+/* line 49, ../scss/_mobile2.scss */
 .speakers_img {
   width: 250px;
   border-radius: 100%;
 }
 
-/* line 49, ../scss/_mobile2.scss */
+/* line 54, ../scss/_mobile2.scss */
 #partners {
   width: 390px;
 }
 
-/* line 53, ../scss/_mobile2.scss */
+/* line 58, ../scss/_mobile2.scss */
 nav {
   background-color: #5f575e;
   text-align: center;
@@ -151,36 +153,36 @@ nav {
   padding: 20px;
 }
 
-/* line 60, ../scss/_mobile2.scss */
+/* line 65, ../scss/_mobile2.scss */
 a {
   text-decoration: none;
   color: #a57ad5;
   padding: 10px;
 }
-/* line 64, ../scss/_mobile2.scss */
+/* line 69, ../scss/_mobile2.scss */
 a:hover {
   color: #c8b8f0;
 }
 
-/* line 70, ../scss/_mobile2.scss */
+/* line 75, ../scss/_mobile2.scss */
 #container {
   position: relative;
   width: 100%;
   height: 200px;
 }
 
-/* line 76, ../scss/_mobile2.scss */
+/* line 81, ../scss/_mobile2.scss */
 hr {
   width: 45%;
 }
 
-/* line 80, ../scss/_mobile2.scss */
+/* line 85, ../scss/_mobile2.scss */
 #panel {
   text-align: center;
   padding-bottom: 20px;
 }
 
-/* line 85, ../scss/_mobile2.scss */
+/* line 90, ../scss/_mobile2.scss */
 svg {
   margin: 0 auto;
 }
