@@ -197,7 +197,7 @@ svg {
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 700px) {
   /* line 105, ../scss/_mobile2.scss */
   #first {
     height: 550px;
