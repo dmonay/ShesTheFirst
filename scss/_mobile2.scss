@@ -5,19 +5,19 @@ $x:150%;
 	text-align: center;
 	width:90%;
 	margin: 0 auto;
-	font-size:130%;
+	font-size:80px;
 }
 
 #jetpack {
 	width:100%;
-	height:320px;
+	height:480px;
 	z-index: 10;
 	background: url('../images/up.jpg') no-repeat center top scroll; 
 	@include background-size(cover);
 }
 
 #third  {
-	
+	font-size:60px;
 	padding: 7px;
 	text-align: center;
 	background-color: $third-color;
@@ -30,9 +30,10 @@ $x:150%;
 }
 
 #fifth  {
-	margin-top: -20px;
+	margin-top: -30px;
 	text-align: center;
 	background-color:#eaf2e7;
+	height:800px;
 }
 
 #sixth  {
@@ -42,18 +43,21 @@ $x:150%;
 }
 
 #seventh  {
-	margin-top: -20px;
+	margin-top: -30px;
 	text-align: center;
 	background-color:#6f72c6;
 }
 
 .speakers_img {
-	width:250px;
+	width:350px;
 	border-radius:100%;
+}
+.speakers_copy {
+	font-size:55px;
 }
 
 #partners {
-	width:390px;
+	width:590px;
 }
 
 nav {
@@ -76,7 +80,7 @@ a {
 #container {
 	position: relative;
 	width:100%;
-	height:200px;
+	height:300px;
 }
 
 hr {
@@ -90,4 +94,52 @@ hr {
 
 svg {
 	margin: 0 auto;
+}
+
+
+
+
+
+@media only screen and (min-width: 1000px)  {
+
+#first {
+	height:550px;
+	font-size:50px;
+}
+
+#second  {
+	padding: 7px;
+	text-align: center;
+	width:90%;
+	margin: 0 auto;
+	font-size:40px;
+}
+
+#logo {
+	position: absolute;
+	left: -110%;
+	top:10px;
+	
+}
+
+#banner { 
+	text-align: center;
+	position: relative;
+	width: 327px;
+	left:54%;
+	top: 5%;
+	font-size:50px;
+}
+
+#jetpack {
+	height: 450px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+#container {
+
+	height:350px;
+}
+
 }

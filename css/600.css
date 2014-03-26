@@ -1,27 +1,18 @@
-@media only screen and (min-width: 900px) {
-  /* line 3, ../scss/700.scss */
+@media only screen and (min-device-width: 600px) {
+  /* line 3, ../scss/600.scss */
   #first {
     height: 550px;
     font-size: 50px;
   }
 
-  /* line 8, ../scss/700.scss */
-  #second {
-    padding: 7px;
-    text-align: center;
-    width: 90%;
-    margin: 0 auto;
-    font-size: 40px;
-  }
-
-  /* line 16, ../scss/700.scss */
+  /* line 8, ../scss/600.scss */
   #logo {
     position: absolute;
     left: -110%;
     top: 10px;
   }
 
-  /* line 23, ../scss/700.scss */
+  /* line 15, ../scss/600.scss */
   #banner {
     text-align: center;
     position: relative;
@@ -31,14 +22,14 @@
     font-size: 50px;
   }
 
-  /* line 32, ../scss/700.scss */
+  /* line 24, ../scss/600.scss */
   #jetpack {
     height: 450px;
     margin-top: 40px;
     margin-bottom: 30px;
   }
 
-  /* line 38, ../scss/700.scss */
+  /* line 30, ../scss/600.scss */
   #container {
     height: 350px;
   }

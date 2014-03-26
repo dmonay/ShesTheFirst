@@ -33,8 +33,8 @@ h3 {
 /* line 37, ../scss/_mobile1.scss */
 #first {
   width: 100%;
-  height: 390px;
-  background: url("../images/banner4.jpg") no-repeat center top fixed;
+  height: 490px;
+  background: url("../images/banner4.jpg") no-repeat center top scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -46,14 +46,15 @@ h3 {
 /* line 46, ../scss/_mobile1.scss */
 #banner {
   text-align: center;
-  font-size: 80%;
+  font-size: 110%;
+  margin-left: 0px;
 }
 /* line 48, ../scss/_mobile1.scss */
 #banner span {
   font-family: "League Script", cursive;
 }
 
-/* line 54, ../scss/_mobile1.scss */
+/* line 55, ../scss/_mobile1.scss */
 #cta {
   height: 50px;
   width: 150px;
@@ -66,17 +67,17 @@ h3 {
   line-height: 45px;
   font-size: 20px;
 }
-/* line 65, ../scss/_mobile1.scss */
+/* line 66, ../scss/_mobile1.scss */
 #cta:hover {
   cursor: pointer;
   background-color: #55b3ff;
 }
 
-/* line 71, ../scss/_mobile1.scss */
+/* line 72, ../scss/_mobile1.scss */
 #logo {
   position: relative;
-  top: -20px;
-  left: -40%;
+  top: -330px;
+  left: -130%;
   width: 80px;
 }
 
@@ -86,13 +87,13 @@ h3 {
   text-align: center;
   width: 90%;
   margin: 0 auto;
-  font-size: 130%;
+  font-size: 80px;
 }
 
 /* line 11, ../scss/_mobile2.scss */
 #jetpack {
   width: 100%;
-  height: 320px;
+  height: 480px;
   z-index: 10;
   background: url("../images/up.jpg") no-repeat center top scroll;
   -webkit-background-size: cover;
@@ -103,6 +104,7 @@ h3 {
 
 /* line 19, ../scss/_mobile2.scss */
 #third {
+  font-size: 60px;
   padding: 7px;
   text-align: center;
   background-color: #c6fcd7;
@@ -117,37 +119,43 @@ h3 {
 
 /* line 32, ../scss/_mobile2.scss */
 #fifth {
-  margin-top: -20px;
+  margin-top: -30px;
   text-align: center;
   background-color: #eaf2e7;
+  height: 800px;
 }
 
-/* line 38, ../scss/_mobile2.scss */
+/* line 39, ../scss/_mobile2.scss */
 #sixth {
   padding: 7px;
   text-align: center;
   background-color: #ccd8ff;
 }
 
-/* line 44, ../scss/_mobile2.scss */
+/* line 45, ../scss/_mobile2.scss */
 #seventh {
-  margin-top: -20px;
+  margin-top: -30px;
   text-align: center;
   background-color: #6f72c6;
 }
 
-/* line 50, ../scss/_mobile2.scss */
+/* line 51, ../scss/_mobile2.scss */
 .speakers_img {
-  width: 250px;
+  width: 350px;
   border-radius: 100%;
 }
 
 /* line 55, ../scss/_mobile2.scss */
-#partners {
-  width: 390px;
+.speakers_copy {
+  font-size: 55px;
 }
 
 /* line 59, ../scss/_mobile2.scss */
+#partners {
+  width: 590px;
+}
+
+/* line 63, ../scss/_mobile2.scss */
 nav {
   background-color: #5f575e;
   text-align: center;
@@ -155,36 +163,82 @@ nav {
   padding: 20px;
 }
 
-/* line 66, ../scss/_mobile2.scss */
+/* line 70, ../scss/_mobile2.scss */
 a {
   text-decoration: none;
   color: #a57ad5;
   padding: 10px;
 }
-/* line 70, ../scss/_mobile2.scss */
+/* line 74, ../scss/_mobile2.scss */
 a:hover {
   color: #c8b8f0;
 }
 
-/* line 76, ../scss/_mobile2.scss */
+/* line 80, ../scss/_mobile2.scss */
 #container {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 300px;
 }
 
-/* line 82, ../scss/_mobile2.scss */
+/* line 86, ../scss/_mobile2.scss */
 hr {
   width: 45%;
 }
 
-/* line 86, ../scss/_mobile2.scss */
+/* line 90, ../scss/_mobile2.scss */
 #panel {
   text-align: center;
   padding-bottom: 20px;
 }
 
-/* line 91, ../scss/_mobile2.scss */
+/* line 95, ../scss/_mobile2.scss */
 svg {
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 1000px) {
+  /* line 105, ../scss/_mobile2.scss */
+  #first {
+    height: 550px;
+    font-size: 50px;
+  }
+
+  /* line 110, ../scss/_mobile2.scss */
+  #second {
+    padding: 7px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 40px;
+  }
+
+  /* line 118, ../scss/_mobile2.scss */
+  #logo {
+    position: absolute;
+    left: -110%;
+    top: 10px;
+  }
+
+  /* line 125, ../scss/_mobile2.scss */
+  #banner {
+    text-align: center;
+    position: relative;
+    width: 327px;
+    left: 54%;
+    top: 5%;
+    font-size: 50px;
+  }
+
+  /* line 134, ../scss/_mobile2.scss */
+  #jetpack {
+    height: 450px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  /* line 140, ../scss/_mobile2.scss */
+  #container {
+    height: 350px;
+  }
 }
