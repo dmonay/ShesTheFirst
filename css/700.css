@@ -1,17 +1,17 @@
-@media screen and (device-aspect-ratio: 2 / 3) {
-  /* line 3, ../scss/700.scss */
+@media only screen and (device-aspect-ratio: 2 / 3) and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+  /* line 5, ../scss/700.scss */
   #first {
     height: 350px;
   }
 
-  /* line 7, ../scss/700.scss */
+  /* line 9, ../scss/700.scss */
   #logo {
     position: absolute;
     left: -110%;
     top: 10px;
   }
 
-  /* line 14, ../scss/700.scss */
+  /* line 16, ../scss/700.scss */
   #banner {
     text-align: center;
     position: relative;
@@ -20,14 +20,14 @@
     top: 5%;
   }
 
-  /* line 22, ../scss/700.scss */
+  /* line 24, ../scss/700.scss */
   #jetpack {
     height: 450px;
     margin-top: 40px;
     margin-bottom: 30px;
   }
 
-  /* line 28, ../scss/700.scss */
+  /* line 30, ../scss/700.scss */
   #container {
     height: 350px;
   }

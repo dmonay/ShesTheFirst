@@ -1,4 +1,6 @@
-@media screen and (device-aspect-ratio: 2/3) {
+@media only screen and (device-aspect-ratio: 2/3) and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
 
 #first {
 	height:350px;
