@@ -33,7 +33,7 @@ h3 {
 /* line 37, ../scss/_mobile1.scss */
 #first {
   width: 100%;
-  height: 290px;
+  height: 390px;
   background: url("../images/banner4.jpg") no-repeat center top fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -84,7 +84,7 @@ h3 {
 #second {
   padding: 7px;
   text-align: center;
-  width: 450px;
+  width: 550px;
   margin: 0 auto;
   font-size: 130%;
 }
