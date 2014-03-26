@@ -1,12 +1,9 @@
-@media only screen and (min-device-width: 320px) and (max-device-width: 690px)
-and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait) {
-
 $x:150%;
 
 #second  {
 	padding: 7px;
 	text-align: center;
-	width:550px;
+	width:90%;
 	margin: 0 auto;
 	font-size:130%;
 }
@@ -93,5 +90,4 @@ hr {
 
 svg {
 	margin: 0 auto;
-}
 }
